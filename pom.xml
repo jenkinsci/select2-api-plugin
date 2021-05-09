@@ -9,14 +9,14 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>select2-api</artifactId>
-    <version>4.0.13-2-SNAPSHOT</version>
+    <version>${revision}${changelist}</version>
     <name>Select2 Api plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <packaging>hpi</packaging>
     <description>Jenkins plug-in that provides Select2.js (https://select2.org).</description>
 
     <properties>
-        <revision>4.0.13-1</revision>
+        <revision>4.0.13-2</revision>
         <changelist>-SNAPSHOT</changelist>
         <jenkins.baseline>2.249</jenkins.baseline>
         <jenkins.version>${jenkins.baseline}.1</jenkins.version>
