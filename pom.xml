@@ -23,6 +23,8 @@
         <java.level>8</java.level>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
         <select2.version>4.0.13</select2.version>
+
+        <jquery3-api.version>3.6.0-1</jquery3-api.version>
     </properties>
 
     <developers>
@@ -105,6 +107,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.jenkins.plugins</groupId>
+            <artifactId>jquery3-api</artifactId>
+            <version>${jquery3-api.version}</version>
+        </dependency>
+    </dependencies>
 
     <scm>
         <connection>scm:git:git://github.com/${gitHubRepo}.git</connection>

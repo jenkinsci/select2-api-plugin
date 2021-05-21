@@ -2,10 +2,12 @@
 <!--
 Use it like <st:adjunct includes="io.jenkins.plugins.select2"/>
 -->
-<j:jelly xmlns:j="jelly:core">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
 
     <j:new var="h" className="hudson.Functions" />
     ${h.initPageVariables(context)}
+
+    <st:adjunct includes="io.jenkins.plugins.jquery3"/>
 
     <link type="text/css" rel="stylesheet" href="${resURL}/plugin/select2-api/dist/css/select2.min.css"/>
     <script type="text/javascript" src="${resURL}/plugin/select2-api/dist/js/select2.min.js"/>
