@@ -24,7 +24,7 @@
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
         <select2.version>4.0.13</select2.version>
 
-        <jquery3-api.version>3.6.0-1</jquery3-api.version>
+        <jquery3-api.version>3.6.0-2</jquery3-api.version>
     </properties>
 
     <developers>
