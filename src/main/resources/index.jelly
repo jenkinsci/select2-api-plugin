@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    Jenkins plug-in that provides Select2.js (https://select2.org).
+</div>
